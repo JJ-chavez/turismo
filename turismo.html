@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!--Uso de CSS interno-->
+		<style type="text/css">
+			/*Uso de CSS con palabras claves*/
+			/*Estilo del menú de navegación*/
+			a{
+				font-size: 20px ;
+				text-decoration: none ;
+				padding: 1rem;
+				color: white;
+				font-family: Arial;
+			}
+			/*Uso de CSS con Clases*/
+			.fondo_celda
+			{
+				background-color: yellow;
+			}
+
+			nav{
+				background-color: deepskyblue;
+				padding: 1rem;
+				}
+
+				.imagen {
+
+					border-radius: 15px;
+				}
+		</style>
+		<!--Cabecera de nuestra página-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Turismo</title>
+		<!--Cabecera de nuestra página-->
+	</head>
+	<body>
+		<!--Encabezado de la página-->
+		<header>
+			<table align="center">
+				<!--Fila de la celda-->
+				<tr>
+					<!--Celda con texto-->
+					<td>
+			<h1 style="color: #0B0590;">NUESTRO PAÍS</h1></td> <!--Utilizamos la etiqueta de imagen para   colocar una ilustración en nuestro encabezado-->
+
+			<!--Celda con espacio-->
+			<td width="20px"></td>
+
+				<!--Celda con imagen-->
+			<td> 
+			<img src="img/mapa.png" alt="Problema al cargar la imagen" width="250px" height="150px">
+			</td>
+		</tr>
+	</table>			
+</header>
+
+	<!--Menú de navegación con la etiqueta NAV, dentro del NAV se colocan los enlaces de navegación
+		con la etiquet <a>
+
+			-Agregamos una tabla para agregar el menú
+
+		-->
+
+		<table align="center" width="1000px">
+			<tr>
+				<td>
+					<nav style="font-size:30px;">
+					<a href="index.html">Inicio</a>
+					<a href="#">Turismo</a>
+					<a href="#">Cultura</a>
+					<a href="#">Contacto</a>
+					</nav>
+
+				</td>
+			</tr>
+
+		</table>
+
+		<!--Contenido principal a mostrar-->
+
+		<table width="1000px" align="center" border="0" cellpadding="15px">	
+			<tr align="center">
+				<td>
+
+					<img src="img/cuco.jpg" width="300px" class="imagen" height="250" alt="Error al cargar la imagen">
+
+					<a href="#"style="color: black; font-weight: bold;">Cuco</a>
+
+				</td>
+				<td>
+
+					<img src="img/perquin.jpg" width="300px" class="imagen" height="250" alt="Error al cargar la imagen">
+
+					<a href="#"style="color: black; font-weight: bold;">Perquín</a>
+
+				</td>
+				<td>
+
+					<img src="img/lugar3.jpg" width="300px" class="imagen" height="250" alt="Error al cargar la imagen">
+
+					<a href="#"style="color: black; font-weight: bold;">Binaes</a>
+
+				</td>
+
+			</tr>
+
+			<tr align="center">
+				<td>
+
+					<img src="img/diablo.jpg" width="300px" class="imagen" height="250" alt="Error al cargar la imagen">
+
+					<a href="#"style="color: black; font-weight: bold;">Puerta del diablo</a>
+
+				</td>
+				<td>
+
+					<img src="img/catedral.jpg" width="300px" class="imagen" height="250" alt="Error al cargar la imagen">
+
+					<a href="#"style="color: black; font-weight: bold;">Catedral</a>
+
+				</td>
+				<td>
+
+					<img src="img/volcan.jpg" width="300px" class="imagen" height="250" alt="Error al cargar la imagen">
+
+					<a href="#"style="color: black; font-weight: bold;">Volcan de El Salvador</a>
+
+				</td>
+
+			</tr>
+
+		</table>
+	
+
+				<!--Definimos el pie de página-->		
+
+				<footer style="background-color: blue; color: white; padding: 1rem;">
+					<h2 align="center">&copyTodos los Derechos Reservados 2024</h2>
+				</footer>
+</body>
+</html>
+
+
+
